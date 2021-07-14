@@ -1,0 +1,17 @@
+{
+    "name": "thiago/test-dev-teste",
+    "autoload": {
+        "psr-4": {
+            "Thiago\\TestDevTeste\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thiago Novaes",
+            "email": "novaesthago@gmail.com"
+        }
+    ],
+    "require": {
+        "pecee/simple-router": "4.3.6.1"
+    }
+}
