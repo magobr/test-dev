@@ -43,7 +43,7 @@ class Sql extends PDO
         $stmt->execute([":id"=>$id]);
 
         $response = [
-            "lines affected"=> $stmt->rowCount(),
+            "linesAffected"=> $stmt->rowCount(),
             "message"=> ""
         ];
 
